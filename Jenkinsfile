@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-repo/frontend.git', branch: 'main'
+                git url: 'https://github.com/snkalt/notepad-frontend, branch: 'main'
             }
         }
         stage('Build') {
